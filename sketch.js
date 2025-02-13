@@ -79,5 +79,5 @@ function stopAndSave() {
   for (let key in detectedCounts) {
     csvLines.push(`${key},${detectedCounts[key].count},"${detectedCounts[key].confidences.join("; ")}"`);
   }
-  saveStrings(csvLines, "objectDetection_confidence", "csv");
+  saveStrings(csvLines, "illusory truth effect", "csv");
 }
